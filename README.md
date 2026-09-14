@@ -1,27 +1,30 @@
-# 🎯 Hacker101 CTF Writeups
+# Hacker101 CTF Writeups
 
-Bug bounty learning journey — documenting every CTF solved on [Hacker101](https://hacker101.com).
+Progress tracker for Hacker101 CTF challenges.  
+**Author:** Hosam A. Ghanima | **Goal:** Bug Bounty → AI Red Teaming
 
-## 📊 Progress
+---
 
-| # | CTF | Points | Status | Vulnerability |
-|---|-----|--------|--------|---------------|
-| 1 | A little something to get you started | 2 | ✅ Solved | Forced Browsing |
-| 2 | can you recon? | 26 | 🔄 Partial | Path Traversal + File Upload |
-| 3 | Micro-CMS v1 | 26 | ⏳ Pending | XSS + SQLi |
-| 4 | Micro-CMS v2 | 26 | ⏳ Pending | Auth Bypass |
-| 5 | Photo Gallery | 26 | ⏳ Pending | SQLi |
-| 6 | XSS Playground | 26 | ⏳ Pending | XSS |
-| 7 | Postbook | 26 | ⏳ Pending | IDOR |
+## Progress
 
-**Points: 2 / 26 needed for private program invitations**
+| # | Challenge | Difficulty | Flags | Points | Status | Writeup |
+|---|-----------|-----------|-------|--------|--------|---------|
+| 1 | A Little Something | Easy | 1/1 | 50 | ✅ Solved | [writeup](01-a-little-something/writeup.md) |
+| 2 | Can You Recon? | Easy | 0/2 | — | ⏭️ Skipped (broken instance) | — |
+| 3 | Micro-CMS v1 | Easy | 4/4 | 200 | ✅ Solved | [writeup](03-micro-cms-v1/writeup.md) |
+| 4 | Micro-CMS v2 | Moderate | 0/3 | — | 🔴 Next | — |
+| 5 | Photo Gallery | Easy | 0/3 | — | ⬜ Pending | — |
 
-## 🛠️ Tools Used
-- Burp Suite — HTTP interception and request modification
-- gobuster — Directory and file enumeration
-- curl — Manual HTTP requests
-- SQLMap — Automated SQL injection
+**Total Points:** 250+
 
-## 📚 Also Studying
-- HTB Academy — Web penetration testing modules
-- Target: Agoda bug bounty program (HackerOne)
+---
+
+## Vulnerabilities Covered So Far
+
+`Forced Browsing` `Stored XSS` `XSS Filter Bypass` `SQL Injection` `Broken Access Control`
+
+---
+
+## Tools Used
+
+`Burp Suite` `gobuster` `curl` `Browser DevTools`
